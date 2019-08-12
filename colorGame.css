@@ -1,0 +1,114 @@
+body {
+    font-family: "Nunito";
+    background-color: #f5f5dc;
+    margin: 0;
+}
+
+h1 {
+    background-color: #f5f5dc;
+    color: #195fb9;
+    margin: 0;
+    font-size: 150%;
+    font-weight: 300;
+}
+
+hr {
+    margin: 0;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-weight: 100;
+    margin: 0;
+}
+
+h3 {
+    font-size: 100%;
+    font-weight: 100;
+    margin: 0;
+}
+
+#topBar {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #195fb9;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+#buttonBar {
+    color: #195fb9;
+    margin: 0 0;
+    background: white;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+#buttonBar span {
+    display: inline-block;
+    width: 10%;
+    font-size: 70%;
+}
+
+button {
+    color: #195fb9;
+    height: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+button:hover {
+    background-color: #195fb9;
+    color: white;
+}
+
+#messageDisplay {
+    color: #195fb9;
+    letter-spacing: 1px;
+    font-weight: 500;
+    height: 25px;
+    padding-top: 5px;
+    background-color: white;
+    text-align:center;
+    margin: auto;
+    float: center;
+    width: 20%;
+    font-size: 70%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    min-width: 120px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.selected {
+    background-color: #195fb9;
+    color: white;
+}
+
+#squaresContainer {
+    margin: 15px auto;
+    max-width:600px;
+    width: 60%;
+    height: 60%;
+}
+
+.square {
+    background-color: blue;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    display: inline;
+    border-radius: 15%;
+}
